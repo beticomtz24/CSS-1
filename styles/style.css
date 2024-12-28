@@ -5,6 +5,42 @@ h1 {
 
 /*Selectores avanzados nos permiten ser más especificos*/
 
-ul a {
-    color: rgb(65, 11, 72);
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header h1{
+    text-align: center;
+}
+nav ul{
+    padding: 0%;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+/*Pseudoclases*/
+
+nav ul li a:hover {
+    
+    color: brown;
+
+}
+
+/*Display*/
+/* Block | Inline | Inline - Block */
+
+nav ul li{
+    display: inline-block;
+    background-color: cadetblue;
+    width: 60px;
+    padding: 8px;
+    height: 20px;
+    margin: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: azure;
 }
